@@ -1,0 +1,17 @@
+# Description: Software installation system
+# URL: http://0install.net/
+# Maintainer: Lucas Hazel, lucas@die.net.au
+# Depends on: pygtk, gnupg
+
+name=zeroinstall-injector
+version=0.26
+release=1
+source=(http://dl.sf.net/zero-install/$name-$version.tar.gz.gpg)
+
+build() {
+	gpg --recv-key --keyserver www.keyserver.net 59A53CC1
+	gpg $name-$version.tar.gz.gpg
+	tar zxf $name-$version.tar.gz
+	cd $name-$version
+	python setup.py install --root=$PKG
+}

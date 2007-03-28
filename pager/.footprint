@@ -1,0 +1,27 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/ROX/
+drwxr-xr-x	root/root	usr/ROX/Apps/
+drwxr-xr-x	root/root	usr/ROX/Apps/Pager/
+-rw-r--r--	root/root	usr/ROX/Apps/Pager/.DirIcon
+-rw-r--r--	root/root	usr/ROX/Apps/Pager/AppInfo.xml
+-rwxr-xr-x	root/root	usr/ROX/Apps/Pager/AppRun
+lrwxrwxrwx	root/root	usr/ROX/Apps/Pager/AppletRun -> AppRun
+drwxr-xr-x	root/root	usr/ROX/Apps/Pager/Help/
+-rw-r--r--	root/root	usr/ROX/Apps/Pager/Help/COPYING
+-rw-r--r--	root/root	usr/ROX/Apps/Pager/Help/Changes
+-rw-r--r--	root/root	usr/ROX/Apps/Pager/Help/README
+drwxr-xr-x	root/root	usr/ROX/Apps/Pager/Messages/
+-rw-r--r--	root/root	usr/ROX/Apps/Pager/Messages/it.gmo
+-rw-r--r--	root/root	usr/ROX/Apps/Pager/Options.xml
+-rwxr-xr-x	root/root	usr/ROX/Apps/Pager/Pager
+-rw-------	root/root	usr/ROX/Apps/Pager/Pager.xml
+drwxr-xr-x	root/root	usr/ROX/Apps/Pager/build/
+-rw-r--r--	root/root	usr/ROX/Apps/Pager/build/Makefile
+-rw-r--r--	root/root	usr/ROX/Apps/Pager/build/config.cache
+-rw-r--r--	root/root	usr/ROX/Apps/Pager/build/config.h
+-rw-r--r--	root/root	usr/ROX/Apps/Pager/build/config.log
+-rwxr-xr-x	root/root	usr/ROX/Apps/Pager/build/config.status
+-rw-r--r--	root/root	usr/ROX/Apps/Pager/build/main.o
+-rw-r--r--	root/root	usr/ROX/Apps/Pager/build/rox_gettext.o
+-rw-r--r--	root/root	usr/ROX/Apps/Pager/build/window-menu.o
+-rwxr-xr-x	root/root	usr/ROX/Apps/Pager/libdir

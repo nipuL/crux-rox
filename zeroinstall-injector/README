@@ -1,0 +1,5 @@
+As of version 0.26, 0install supports shared software caches. But does not
+recommend it's use on security critical systems.
+
+If you would like to share a 0install cache between users simply run the
+create_shared_cache.sh script.

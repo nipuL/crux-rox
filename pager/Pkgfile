@@ -1,0 +1,18 @@
+# Description: Pager utility for ROX
+# URL: http://rox.sf.net
+# Maintainer: Lucas Hazel, lucas@die.net.au
+# Depends on: libwnck, gtk
+
+name=pager
+version=1.1
+release=1
+source=(http://dl.sf.net/rox/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	ls Pager
+	Pager/AppRun --compile
+	rm -rf Pager/src
+	mkdir -p $PKG/usr/ROX/Apps
+	cp -r Pager $PKG/usr/ROX/Apps
+}
