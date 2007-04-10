@@ -1,0 +1,26 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/ROX/
+drwxr-xr-x	root/root	usr/ROX/Apps/
+drwxr-xr-x	root/root	usr/ROX/Apps/TaskTray/
+-rw-r--r--	root/root	usr/ROX/Apps/TaskTray/.DirIcon
+-rw-r--r--	root/root	usr/ROX/Apps/TaskTray/AppInfo.xml
+lrwxrwxrwx	root/root	usr/ROX/Apps/TaskTray/AppRun -> AppletRun
+-rwxr-xr-x	root/root	usr/ROX/Apps/TaskTray/AppletRun
+drwxr-xr-x	root/root	usr/ROX/Apps/TaskTray/Help/
+-rw-r--r--	root/root	usr/ROX/Apps/TaskTray/Help/COPYING
+-rw-r--r--	root/root	usr/ROX/Apps/TaskTray/Help/Changes
+-rw-r--r--	root/root	usr/ROX/Apps/TaskTray/Help/README
+drwxr-xr-x	root/root	usr/ROX/Apps/TaskTray/Messages/
+-rw-r--r--	root/root	usr/ROX/Apps/TaskTray/Messages/de.gmo
+-rw-r--r--	root/root	usr/ROX/Apps/TaskTray/Messages/de.po
+-rwxr-xr-x	root/root	usr/ROX/Apps/TaskTray/Messages/dist
+-rwxr-xr-x	root/root	usr/ROX/Apps/TaskTray/Messages/update-po
+-rw-r--r--	root/root	usr/ROX/Apps/TaskTray/Options.xml
+-rw-r--r--	root/root	usr/ROX/Apps/TaskTray/findrox.py
+-rw-r--r--	root/root	usr/ROX/Apps/TaskTray/findrox.pyc
+-rw-r--r--	root/root	usr/ROX/Apps/TaskTray/icon.py
+-rw-r--r--	root/root	usr/ROX/Apps/TaskTray/icon.pyc
+-rw-r--r--	root/root	usr/ROX/Apps/TaskTray/stock_delete.png
+-rw-r--r--	root/root	usr/ROX/Apps/TaskTray/stock_minimize.png
+-rw-r--r--	root/root	usr/ROX/Apps/TaskTray/winmenu.py
+-rw-r--r--	root/root	usr/ROX/Apps/TaskTray/winmenu.pyc

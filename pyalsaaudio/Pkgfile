@@ -1,0 +1,14 @@
+# Description: Python bindings for alsalib
+# URL: http://pyalsaaudio.sourceforge.net/
+# Maintainer: Lucas Hazel, lucas@die.net.au
+# Depends on: python, alsa-lib
+
+name=pyalsaaudio
+version=0.2
+release=1
+source=(http://dl.sf.net/sourceforge/$name/$name-$version.tgz)
+
+build() {
+	cd $name-$version
+	python setup.py install --root=$PKG
+}

@@ -1,0 +1,18 @@
+# Description:
+# URL:
+# Maintainer:
+# Packager:
+# Depends on: libwnck
+
+name=gnome-python-desktop
+version=2.14.0
+release=1
+source=(http://ftp.acc.umu.se/pub/GNOME/sources/$name/$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/gtk-doc
+}
