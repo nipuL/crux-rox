@@ -1,12 +1,13 @@
-# Description: Python bindings for various GNOME desktop libraries
-# Maintainer: Lucas Hazel, lucas@die.net.au
-# Packager: Matt Housh, jaeger at morpheus dot net
+# Description:
+# URL:
+# Maintainer:
+# Packager:
 # Depends on: libwnck
 
 name=gnome-python-desktop
-version=2.18.0
+version=2.14.0
 release=1
-source=(http://download.gnome.org/desktop/2.18/2.18.0/sources/$name-$version.tar.bz2)
+source=(http://ftp.acc.umu.se/pub/GNOME/sources/$name/$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
