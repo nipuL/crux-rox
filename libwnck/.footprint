@@ -17,8 +17,8 @@ drwxr-xr-x	root/root	usr/include/libwnck-1.0/libwnck/
 drwxr-xr-x	root/root	usr/lib/
 -rw-r--r--	root/root	usr/lib/libwnck-1.a
 -rwxr-xr-x	root/root	usr/lib/libwnck-1.la
-lrwxrwxrwx	root/root	usr/lib/libwnck-1.so -> libwnck-1.so.18.2.6
-lrwxrwxrwx	root/root	usr/lib/libwnck-1.so.18 -> libwnck-1.so.18.2.6
--rwxr-xr-x	root/root	usr/lib/libwnck-1.so.18.2.6
+lrwxrwxrwx	root/root	usr/lib/libwnck-1.so -> libwnck-1.so.18.2.8
+lrwxrwxrwx	root/root	usr/lib/libwnck-1.so.18 -> libwnck-1.so.18.2.8
+-rwxr-xr-x	root/root	usr/lib/libwnck-1.so.18.2.8
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libwnck-1.0.pc

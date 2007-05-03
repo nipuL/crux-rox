@@ -5,9 +5,9 @@
 # Group: gnome/desktop
 
 name=libwnck
-version=2.16.3
+version=2.18.0
 release=1
-source=(http://download.gnome.org/desktop/2.16/2.16.3/sources/$name-$version.tar.bz2)
+source=(http://download.gnome.org/desktop/2.18/2.18.0/sources/$name-$version.tar.bz2)
 
 build() {
 	cd $name-$version
