@@ -5,9 +5,9 @@
 # Depends on: libwnck
 
 name=gnome-python-desktop
-version=2.14.0
+version=2.18.0
 release=1
-source=(http://ftp.acc.umu.se/pub/GNOME/sources/$name/$version/$name-$version.tar.gz)
+source=(http://download.gnome.org/desktop/2.18/2.18.0/sources/$name-$version.tar.bz2)
 
 build() {
 	cd $name-$version
