@@ -6,6 +6,7 @@ drwxr-xr-x	root/root	usr/lib/ROX-Lib2/
 -rwxr-xr-x	root/root	usr/lib/ROX-Lib2/AppRun
 -rw-------	root/root	usr/lib/ROX-Lib2/ROX-Lib2.xml
 drwxr-xr-x	root/root	usr/lib/ROX-Lib2/python/
+-rwxr-xr-x	root/root	usr/lib/ROX-Lib2/python/check.sh
 -rwxr-xr-x	root/root	usr/lib/ROX-Lib2/python/make_docs.py
 drwxr-xr-x	root/root	usr/lib/ROX-Lib2/python/rox/
 -rw-r--r--	root/root	usr/lib/ROX-Lib2/python/rox/AppInfo.py
@@ -36,6 +37,10 @@ drwxr-xr-x	root/root	usr/lib/ROX-Lib2/python/rox/
 -rw-r--r--	root/root	usr/lib/ROX-Lib2/python/rox/suchild.py
 -rwxr-xr-x	root/root	usr/lib/ROX-Lib2/python/rox/suchild.sh
 -rw-r--r--	root/root	usr/lib/ROX-Lib2/python/rox/tasks.py
+-rwxr-xr-x	root/root	usr/lib/ROX-Lib2/python/rox/templates.py
+-rw-r--r--	root/root	usr/lib/ROX-Lib2/python/rox/thumbnail.py
+-rw-r--r--	root/root	usr/lib/ROX-Lib2/python/rox/uri_handler.py
+-rw-r--r--	root/root	usr/lib/ROX-Lib2/python/rox/xattr.py
 -rw-r--r--	root/root	usr/lib/ROX-Lib2/python/rox/xxmlrpc.py
 drwxr-xr-x	root/root	usr/lib/ROX-Lib2/tests/
 drwxr-xr-x	root/root	usr/lib/ROX-Lib2/tests/python/
