@@ -1,7 +1,7 @@
 # Description: Pager utility for ROX
 # URL: http://rox.sf.net
 # Maintainer: Lucas Hazel, lucas@die.net.au
-# Depends on: libwnck, gtk
+# Depends on: libwnck, gtk, rox-clib
 
 name=pager
 version=1.1
