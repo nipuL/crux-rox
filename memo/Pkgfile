@@ -1,0 +1,15 @@
+# Description: Alarm clock and reminder list
+# URL: http://rox.sf.net
+# Maintainer: Lucas Hazel, lucas@die.net.au
+# Depends on: rox-lib
+
+name=memo
+version=2.0
+release=1
+source=(http://dl.sf.net/rox/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	mkdir -p $PKG/usr/ROX/Apps
+	cp -r Memo $PKG/usr/ROX/Apps
+}
