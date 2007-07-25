@@ -1,0 +1,15 @@
+# Description:
+# URL: http://www.kerofin.demon.co.uk/rox/systemtrayn.html
+# Maintainer: Lucas Hazel, lucas@die.net.au
+# Depends on: rox-clib
+
+name=systemtrayn
+version=0.3.1
+release=1
+source=(http://www.kerofin.demon.co.uk/rox/SystemTrayN-$version.tar.gz)
+
+build() {
+	SystemTrayN/AppRun --compile
+	mkdir -p $PKG/usr/ROX/Apps
+	cp -r SystemTrayN $PKG/usr/ROX/Apps/
+}
