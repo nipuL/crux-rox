@@ -12,6 +12,8 @@ drwxr-xr-x	root/root	usr/ROX/Apps/SystemTrayN/Help/
 -rw-r--r--	root/root	usr/ROX/Apps/SystemTrayN/Help/README
 drwxr-xr-x	root/root	usr/ROX/Apps/SystemTrayN/Linux-x86_64/
 -rwxr-xr-x	root/root	usr/ROX/Apps/SystemTrayN/Linux-x86_64/SystemTray
+-rw-r--r--	root/root	usr/ROX/Apps/SystemTrayN/Options.xml
+-rw-r--r--	root/root	usr/ROX/Apps/SystemTrayN/SystemTrayN-src.xml
 -rw-r--r--	root/root	usr/ROX/Apps/SystemTrayN/SystemTrayN.xml
 -rwxr-xr-x	root/root	usr/ROX/Apps/SystemTrayN/libdir
 -rwxr-xr-x	root/root	usr/ROX/Apps/SystemTrayN/rox_run
@@ -22,12 +24,15 @@ drwxr-xr-x	root/root	usr/ROX/Apps/SystemTrayN/src/
 -rw-r--r--	root/root	usr/ROX/Apps/SystemTrayN/src/balloon.c
 -rw-r--r--	root/root	usr/ROX/Apps/SystemTrayN/src/balloon.h
 -rw-r--r--	root/root	usr/ROX/Apps/SystemTrayN/src/balloon.o
+-rwxr-xr-x	root/root	usr/ROX/Apps/SystemTrayN/src/build
+-rwxr-xr-x	root/root	usr/ROX/Apps/SystemTrayN/src/build-0compile
 -rw-r--r--	root/root	usr/ROX/Apps/SystemTrayN/src/config.h
 -rw-r--r--	root/root	usr/ROX/Apps/SystemTrayN/src/config.h.in
 -rw-r--r--	root/root	usr/ROX/Apps/SystemTrayN/src/config.log
 -rwxr-xr-x	root/root	usr/ROX/Apps/SystemTrayN/src/config.status
 -rwxr-xr-x	root/root	usr/ROX/Apps/SystemTrayN/src/configure
 -rw-r--r--	root/root	usr/ROX/Apps/SystemTrayN/src/configure.in
+-rwxr-xr-x	root/root	usr/ROX/Apps/SystemTrayN/src/dist
 -rw-r--r--	root/root	usr/ROX/Apps/SystemTrayN/src/i18n.c
 -rw-r--r--	root/root	usr/ROX/Apps/SystemTrayN/src/i18n.h
 -rw-r--r--	root/root	usr/ROX/Apps/SystemTrayN/src/i18n.o
@@ -39,6 +44,8 @@ drwxr-xr-x	root/root	usr/ROX/Apps/SystemTrayN/src/
 -rw-r--r--	root/root	usr/ROX/Apps/SystemTrayN/src/my_vfs.h
 drwxr-xr-x	root/root	usr/ROX/Apps/SystemTrayN/src/po/
 -rwxr-xr-x	root/root	usr/ROX/Apps/SystemTrayN/src/po/dist
+-rw-r--r--	root/root	usr/ROX/Apps/SystemTrayN/src/po/en.po
+-rw-r--r--	root/root	usr/ROX/Apps/SystemTrayN/src/po/extopts.py
 -rwxr-xr-x	root/root	usr/ROX/Apps/SystemTrayN/src/po/make-mo
 -rw-r--r--	root/root	usr/ROX/Apps/SystemTrayN/src/po/ru.po
 -rwxr-xr-x	root/root	usr/ROX/Apps/SystemTrayN/src/po/update-po
