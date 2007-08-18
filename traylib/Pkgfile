@@ -1,0 +1,15 @@
+# Description:
+# URL:
+# Maintainer:
+# Packager:
+# Depends on:
+
+name=traylib
+version=0.2.1
+release=1
+source=(ftp://ftp.berlios.de/pub/rox4debian/libs/TrayLib-$version.tgz)
+
+build() {
+	mkdir -p $PKG/usr/lib
+	cp -r TrayLib $PKG/usr/lib
+}
