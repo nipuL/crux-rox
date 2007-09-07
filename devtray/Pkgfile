@@ -1,0 +1,14 @@
+# Description: Device Manager for ROX
+# URL: ftp://ftp.berlios.de/pub/rox4debian/apps
+# Maintainer: Lucas Hazel <lucas@die.net.au>
+# Depends on: traylib pmount
+
+name=devtray
+version=0.3.0.1
+release=1
+source=(ftp://ftp.berlios.de/pub/rox4debian/apps/DevTray-$version.tgz)
+
+build() {
+	mkdir -p $PKG/usr/ROX/Apps
+	cp -r DevTray $PKG/usr/ROX/Apps
+}

@@ -5,6 +5,8 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 drwxr-xr-x	root/root	usr/lib/python2.5/
 drwxr-xr-x	root/root	usr/lib/python2.5/site-packages/
 drwxr-xr-x	root/root	usr/lib/python2.5/site-packages/gtk-2.0/
+-rwxr-xr-x	root/root	usr/lib/python2.5/site-packages/gtk-2.0/rsvg.la
+-rwxr-xr-x	root/root	usr/lib/python2.5/site-packages/gtk-2.0/rsvg.so
 -rwxr-xr-x	root/root	usr/lib/python2.5/site-packages/gtk-2.0/wnck.la
 -rwxr-xr-x	root/root	usr/lib/python2.5/site-packages/gtk-2.0/wnck.so
 drwxr-xr-x	root/root	usr/share/

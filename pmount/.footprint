@@ -1,0 +1,12 @@
+drwxr-xr-x	root/root	etc/
+-rw-r--r--	root/root	etc/pmount.allow
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwsr-xr-x	root/root	usr/bin/pmount
+-rwxr-xr-x	root/root	usr/bin/pmount-hal
+-rwsr-xr-x	root/root	usr/bin/pumount
+drwxr-xr-x	root/root	usr/man/
+drwxr-xr-x	root/root	usr/man/man1/
+-rw-r--r--	root/root	usr/man/man1/pmount-hal.1.gz
+-rw-r--r--	root/root	usr/man/man1/pmount.1.gz
+-rw-r--r--	root/root	usr/man/man1/pumount.1.gz
