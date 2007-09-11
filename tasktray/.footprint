@@ -22,6 +22,7 @@ drwxr-xr-x	root/root	usr/ROX/Apps/TaskTray/Messages/
 -rwxr-xr-x	root/root	usr/ROX/Apps/TaskTray/Messages/update-po
 -rw-r--r--	root/root	usr/ROX/Apps/TaskTray/OptionsH.xml
 -rw-r--r--	root/root	usr/ROX/Apps/TaskTray/OptionsV.xml
+-rw-r--r--	root/root	usr/ROX/Apps/TaskTray/TaskTray.xml
 -rw-r--r--	root/root	usr/ROX/Apps/TaskTray/appicon.py
 -rw-r--r--	root/root	usr/ROX/Apps/TaskTray/findlib.py
 -rw-r--r--	root/root	usr/ROX/Apps/TaskTray/findrox.py
