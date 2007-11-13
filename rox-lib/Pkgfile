@@ -5,7 +5,7 @@
 # Depends on: pygtk
 
 name=rox-lib
-version=2.0.4
+version=2.0.5
 release=1
 source=(http://dl.sourceforge.net/sourceforge/rox/${name}2-$version.tar.bz2)
 
