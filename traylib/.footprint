@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/TrayLib/Help/html/
 -rw-r--r--	root/root	usr/lib/TrayLib/Help/html/toc-traylib-module.html
 -rw-r--r--	root/root	usr/lib/TrayLib/Help/html/toc-traylib.config-module.html
 -rw-r--r--	root/root	usr/lib/TrayLib/Help/html/toc-traylib.icon-module.html
+-rw-r--r--	root/root	usr/lib/TrayLib/Help/html/toc-traylib.icon_config-module.html
 -rw-r--r--	root/root	usr/lib/TrayLib/Help/html/toc-traylib.pixbuf_helper-module.html
 -rw-r--r--	root/root	usr/lib/TrayLib/Help/html/toc-traylib.pixmaps-module.html
 -rw-r--r--	root/root	usr/lib/TrayLib/Help/html/toc-traylib.tray-module.html
@@ -28,6 +29,7 @@ drwxr-xr-x	root/root	usr/lib/TrayLib/Help/html/
 -rw-r--r--	root/root	usr/lib/TrayLib/Help/html/toc-traylib.tray_container-module.html
 -rw-r--r--	root/root	usr/lib/TrayLib/Help/html/toc-traylib.tray_window-module.html
 -rw-r--r--	root/root	usr/lib/TrayLib/Help/html/toc-traylib.winicon-module.html
+-rw-r--r--	root/root	usr/lib/TrayLib/Help/html/toc-traylib.winicon_config-module.html
 -rw-r--r--	root/root	usr/lib/TrayLib/Help/html/toc-traylib.winmenu-module.html
 -rw-r--r--	root/root	usr/lib/TrayLib/Help/html/toc.html
 -rw-r--r--	root/root	usr/lib/TrayLib/Help/html/traylib-module.html
@@ -38,8 +40,10 @@ drwxr-xr-x	root/root	usr/lib/TrayLib/Help/html/
 -rw-r--r--	root/root	usr/lib/TrayLib/Help/html/traylib.icon-module.html
 -rw-r--r--	root/root	usr/lib/TrayLib/Help/html/traylib.icon-pysrc.html
 -rw-r--r--	root/root	usr/lib/TrayLib/Help/html/traylib.icon.Icon-class.html
--rw-r--r--	root/root	usr/lib/TrayLib/Help/html/traylib.icon.IconConfig-class.html
--rw-r--r--	root/root	usr/lib/TrayLib/Help/html/traylib.icon.IconConfigurable-class.html
+-rw-r--r--	root/root	usr/lib/TrayLib/Help/html/traylib.icon_config-module.html
+-rw-r--r--	root/root	usr/lib/TrayLib/Help/html/traylib.icon_config-pysrc.html
+-rw-r--r--	root/root	usr/lib/TrayLib/Help/html/traylib.icon_config.IconConfig-class.html
+-rw-r--r--	root/root	usr/lib/TrayLib/Help/html/traylib.icon_config.IconConfigurable-class.html
 -rw-r--r--	root/root	usr/lib/TrayLib/Help/html/traylib.pixbuf_helper-module.html
 -rw-r--r--	root/root	usr/lib/TrayLib/Help/html/traylib.pixbuf_helper-pysrc.html
 -rw-r--r--	root/root	usr/lib/TrayLib/Help/html/traylib.pixmaps-module.html
@@ -62,8 +66,10 @@ drwxr-xr-x	root/root	usr/lib/TrayLib/Help/html/
 -rw-r--r--	root/root	usr/lib/TrayLib/Help/html/traylib.winicon-module.html
 -rw-r--r--	root/root	usr/lib/TrayLib/Help/html/traylib.winicon-pysrc.html
 -rw-r--r--	root/root	usr/lib/TrayLib/Help/html/traylib.winicon.WinIcon-class.html
--rw-r--r--	root/root	usr/lib/TrayLib/Help/html/traylib.winicon.WinIconConfig-class.html
--rw-r--r--	root/root	usr/lib/TrayLib/Help/html/traylib.winicon.WinIconConfigurable-class.html
+-rw-r--r--	root/root	usr/lib/TrayLib/Help/html/traylib.winicon_config-module.html
+-rw-r--r--	root/root	usr/lib/TrayLib/Help/html/traylib.winicon_config-pysrc.html
+-rw-r--r--	root/root	usr/lib/TrayLib/Help/html/traylib.winicon_config.WinIconConfig-class.html
+-rw-r--r--	root/root	usr/lib/TrayLib/Help/html/traylib.winicon_config.WinIconConfigurable-class.html
 -rw-r--r--	root/root	usr/lib/TrayLib/Help/html/traylib.winmenu-module.html
 -rw-r--r--	root/root	usr/lib/TrayLib/Help/html/traylib.winmenu-pysrc.html
 -rw-r--r--	root/root	usr/lib/TrayLib/Help/html/traylib.winmenu.WindowActionMenu-class.html
@@ -77,6 +83,7 @@ drwxr-xr-x	root/root	usr/lib/TrayLib/Messages/
 -rw-r--r--	root/root	usr/lib/TrayLib/Messages/ru.gmo
 -rw-r--r--	root/root	usr/lib/TrayLib/Messages/ru.po
 -rwxr-xr-x	root/root	usr/lib/TrayLib/Messages/update-po
+-rw-r--r--	root/root	usr/lib/TrayLib/TrayLib.xml
 -rwxr-xr-x	root/root	usr/lib/TrayLib/make_docs
 -rw-r--r--	root/root	usr/lib/TrayLib/messages.pot
 drwxr-xr-x	root/root	usr/lib/TrayLib/python/
@@ -85,11 +92,14 @@ drwxr-xr-x	root/root	usr/lib/TrayLib/python/traylib/
 -rw-r--r--	root/root	usr/lib/TrayLib/python/traylib/config.py
 -rw-r--r--	root/root	usr/lib/TrayLib/python/traylib/findrox.py
 -rw-r--r--	root/root	usr/lib/TrayLib/python/traylib/icon.py
+-rw-r--r--	root/root	usr/lib/TrayLib/python/traylib/icon_config.py
 -rw-r--r--	root/root	usr/lib/TrayLib/python/traylib/pixbuf_helper.py
 -rw-r--r--	root/root	usr/lib/TrayLib/python/traylib/pixmaps.py
 -rw-r--r--	root/root	usr/lib/TrayLib/python/traylib/tray.py
 -rw-r--r--	root/root	usr/lib/TrayLib/python/traylib/tray_applet.py
+-rw-r--r--	root/root	usr/lib/TrayLib/python/traylib/tray_config.py
 -rw-r--r--	root/root	usr/lib/TrayLib/python/traylib/tray_container.py
 -rw-r--r--	root/root	usr/lib/TrayLib/python/traylib/tray_window.py
 -rw-r--r--	root/root	usr/lib/TrayLib/python/traylib/winicon.py
+-rw-r--r--	root/root	usr/lib/TrayLib/python/traylib/winicon_config.py
 -rw-r--r--	root/root	usr/lib/TrayLib/python/traylib/winmenu.py
