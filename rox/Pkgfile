@@ -5,7 +5,7 @@
 # Depends on: gtk, shared-mime-info
 
 name=rox
-version=2.6.1
+version=2.7.1
 release=1
 source=(http://heanet.dl.sourceforge.net/sourceforge/rox/$name-filer-$version.tar.bz2)
 
