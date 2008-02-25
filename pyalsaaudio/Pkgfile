@@ -4,9 +4,9 @@
 # Depends on: python, alsa-lib
 
 name=pyalsaaudio
-version=0.2
+version=0.3
 release=1
-source=(http://dl.sf.net/sourceforge/$name/$name-$version.tgz)
+source=(http://dl.sf.net/sourceforge/$name/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
