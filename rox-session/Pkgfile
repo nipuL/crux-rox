@@ -4,12 +4,12 @@
 # Depends on: rox-lib, dbus-python
 
 name=rox-session
-version=0.30
+version=0.40.0
 release=1
-source=(http://dl.sf.net/rox/$name-$version.tar.bz2)
+source=(http://dl.sf.net/rox/$name-$version.tar.gz)
 
 build() {
-	cd $name-$version
+	ROX-Session/AppRun --compile
 	mkdir -p $PKG/usr/ROX/Apps
 	cp -r ROX-Session $PKG/usr/ROX/Apps
 }
