@@ -24,8 +24,15 @@ drwxr-xr-x	root/root	usr/ROX/Apps/TaskTray/Messages/
 -rw-r--r--	root/root	usr/ROX/Apps/TaskTray/OptionsV.xml
 -rw-r--r--	root/root	usr/ROX/Apps/TaskTray/TaskTray.xml
 -rw-r--r--	root/root	usr/ROX/Apps/TaskTray/appicon.py
+-rw-r--r--	root/root	usr/ROX/Apps/TaskTray/appicon_config.py
 -rw-r--r--	root/root	usr/ROX/Apps/TaskTray/findlib.py
 -rw-r--r--	root/root	usr/ROX/Apps/TaskTray/findrox.py
+drwxr-xr-x	root/root	usr/ROX/Apps/TaskTray/icons/
+-rw-r--r--	root/root	usr/ROX/Apps/TaskTray/icons/preferences-system-windows.png
+-rw-r--r--	root/root	usr/ROX/Apps/TaskTray/icons/user-desktop.png
+-rw-r--r--	root/root	usr/ROX/Apps/TaskTray/icons/xterm.png
+-rw-r--r--	root/root	usr/ROX/Apps/TaskTray/main.py
+-rw-r--r--	root/root	usr/ROX/Apps/TaskTray/main_icon.py
 -rw-r--r--	root/root	usr/ROX/Apps/TaskTray/messages.pot
 -rw-r--r--	root/root	usr/ROX/Apps/TaskTray/tasktray.py
 -rw-r--r--	root/root	usr/ROX/Apps/TaskTray/tipsH
