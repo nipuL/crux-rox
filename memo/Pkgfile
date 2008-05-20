@@ -5,11 +5,12 @@
 
 name=memo
 version=2.0
-release=1
+release=2
 source=(http://dl.sf.net/rox/$name-$version.tar.bz2)
 
 build() {
 	cd $name-$version
+	python /usr/lib/python/compileall.py Memo
 	mkdir -p $PKG/usr/ROX/Apps
 	cp -r Memo $PKG/usr/ROX/Apps
 }
