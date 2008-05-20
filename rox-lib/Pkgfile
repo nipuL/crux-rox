@@ -6,12 +6,13 @@
 
 name=rox-lib
 version=2.0.5
-release=1
+release=2
 source=(http://dl.sourceforge.net/sourceforge/rox/${name}2-$version.tar.bz2)
 
 build() {
 	mkdir -p $PKG/usr/lib
 	cd ${name}2-$version
+	python /usr/lib/python/compileall.py ROX-Lib2
 	rm -rf ROX-Lib2/{Help,Messages}
 	cp -rf ROX-Lib2 $PKG/usr/lib
 }
