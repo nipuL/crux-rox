@@ -1,0 +1,12 @@
+diff -urN DevTray.org/Handlers/Volume/mount.py DevTray/Handlers/Volume/mount.py
+--- DevTray.org/Handlers/Volume/mount.py	2008-05-20 12:09:27.213133554 +1000
++++ DevTray/Handlers/Volume/mount.py	2008-05-20 12:09:51.894696160 +1000
+@@ -4,7 +4,7 @@
+ 
+ 
+ def mount(volume):
+-	
++	pass
+ 
+ def unmount(volume):
+ 	if mount_method == MOUNT_METHOD_HAL:
