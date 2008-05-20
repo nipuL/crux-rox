@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/ROX/Apps/Volume/Messages/
 -rw-r--r--	root/root	usr/ROX/Apps/Volume/Mixer.xml
 -rw-r--r--	root/root	usr/ROX/Apps/Volume/Options.xml
 -rw-r--r--	root/root	usr/ROX/Apps/Volume/findrox.py
+-rw-r--r--	root/root	usr/ROX/Apps/Volume/findrox.pyc
 drwxr-xr-x	root/root	usr/ROX/Apps/Volume/images/
 -rw-r--r--	root/root	usr/ROX/Apps/Volume/images/stock_volume-0.svg
 -rw-r--r--	root/root	usr/ROX/Apps/Volume/images/stock_volume-max.svg
@@ -28,6 +29,9 @@ drwxr-xr-x	root/root	usr/ROX/Apps/Volume/images/
 -rw-r--r--	root/root	usr/ROX/Apps/Volume/images/volume.svg
 -rw-r--r--	root/root	usr/ROX/Apps/Volume/messages.pot
 -rw-r--r--	root/root	usr/ROX/Apps/Volume/mixer.py
+-rw-r--r--	root/root	usr/ROX/Apps/Volume/mixer.pyc
 -rw-r--r--	root/root	usr/ROX/Apps/Volume/tips
 -rw-r--r--	root/root	usr/ROX/Apps/Volume/volume.py
+-rw-r--r--	root/root	usr/ROX/Apps/Volume/volume.pyc
 -rw-r--r--	root/root	usr/ROX/Apps/Volume/volumecontrol.py
+-rw-r--r--	root/root	usr/ROX/Apps/Volume/volumecontrol.pyc

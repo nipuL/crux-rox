@@ -9,6 +9,7 @@ release=1
 source=(http://www.hayber.us/rox/applets/Volume-$version.tgz)
 
 build() {
+	python /usr/lib/python/compileall.py Volume
 	mkdir -p $PKG/usr/ROX/Apps
 	cp -r Volume $PKG/usr/ROX/Apps
 }
