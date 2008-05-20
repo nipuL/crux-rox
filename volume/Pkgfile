@@ -5,7 +5,7 @@
 
 name=volume
 version=009
-release=1
+release=2
 source=(http://www.hayber.us/rox/applets/Volume-$version.tgz)
 
 build() {

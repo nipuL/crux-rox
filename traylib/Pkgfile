@@ -6,7 +6,7 @@
 
 name=traylib
 version=0.3.2
-release=1
+release=2
 source=(ftp://ftp.berlios.de/pub/rox4debian/libs/TrayLib-$version.tgz)
 
 build() {
