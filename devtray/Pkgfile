@@ -5,10 +5,13 @@
 
 name=devtray
 version=0.4.1
-release=1
-source=(ftp://ftp.berlios.de/pub/rox4debian/apps/DevTray-$version.tgz)
+release=2
+source=(ftp://ftp.berlios.de/pub/rox4debian/apps/DevTray-$version.tgz
+	$name-$version.patch)
 
 build() {
 	mkdir -p $PKG/usr/ROX/Apps
+	patch -p0 -i $SRC/$name-$version.patch
+	python /usr/lib/python/compileall.py DevTray
 	cp -r DevTray $PKG/usr/ROX/Apps
 }
