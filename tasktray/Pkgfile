@@ -6,10 +6,11 @@
 
 name=tasktray
 version=0.7
-release=1
+release=2
 source=(ftp://ftp.berlios.de/pub/rox4debian/apps/TaskTray-$version.tgz)
 
 build() {
+	python /usr/lib/python/compileall.py TaskTray
 	mkdir -p $PKG/usr/ROX/Apps
 	cp -r TaskTray $PKG/usr/ROX/Apps
 }
