@@ -10,6 +10,7 @@ release=1
 source=(ftp://ftp.berlios.de/pub/rox4debian/libs/TrayLib-$version.tgz)
 
 build() {
+	python /usr/lib/python/compileall.py TrayLib
 	mkdir -p $PKG/usr/lib
 	cp -r TrayLib $PKG/usr/lib
 }
