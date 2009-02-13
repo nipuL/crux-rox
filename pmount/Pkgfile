@@ -6,11 +6,13 @@
 
 name=pmount
 version=0.9.13
-release=1
-source=(http://www.piware.de/projects/$name-$version.tar.gz)
+release=2
+source=(http://www.piware.de/projects/$name-$version.tar.gz
+    $name-$version-dbus.patch)
 
 build() {
     cd $name-$version
+    patch -p1 -i $SRC/$name-$version-dbus.patch
     ./configure --prefix=/usr \
                 --mandir=/usr/man
     make
