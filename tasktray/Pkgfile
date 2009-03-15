@@ -1,8 +1,7 @@
-# Description:
-# URL:
-# Maintainer:
-# Packager:
-# Depends on:
+# Description: ROX Applet to show running windows
+# URL: http://roscidus.com/desktop/TaskTray
+# Maintainer: Lucas Hazel, lucas at die dot net dot au
+# Depends on: traylib
 
 name=tasktray
 version=0.7
