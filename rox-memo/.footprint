@@ -18,7 +18,9 @@ drwxr-xr-x	root/root	usr/ROX/Apps/Memo/Help/
 -rw-r--r--	root/root	usr/ROX/Apps/Memo/Help/README
 -rw-r--r--	root/root	usr/ROX/Apps/Memo/Memo.py
 -rw-r--r--	root/root	usr/ROX/Apps/Memo/Memo.pyc
--rw-------	root/root	usr/ROX/Apps/Memo/Memo.xml
+-rw-r--r--	root/root	usr/ROX/Apps/Memo/Memo.xml
+-rw-r--r--	root/root	usr/ROX/Apps/Memo/MenuWindow.py
+-rw-r--r--	root/root	usr/ROX/Apps/Memo/MenuWindow.pyc
 drwxr-xr-x	root/root	usr/ROX/Apps/Memo/Messages/
 -rwxr-xr-x	root/root	usr/ROX/Apps/Memo/Messages/dist
 -rw-r--r--	root/root	usr/ROX/Apps/Memo/Messages/es.gmo
@@ -35,6 +37,8 @@ drwxr-xr-x	root/root	usr/ROX/Apps/Memo/Messages/
 -rw-r--r--	root/root	usr/ROX/Apps/Memo/Options.xml
 -rw-r--r--	root/root	usr/ROX/Apps/Memo/ShowAll.py
 -rw-r--r--	root/root	usr/ROX/Apps/Memo/ShowAll.pyc
+-rw-r--r--	root/root	usr/ROX/Apps/Memo/Systray.py
+-rw-r--r--	root/root	usr/ROX/Apps/Memo/Systray.pyc
 -rw-r--r--	root/root	usr/ROX/Apps/Memo/Window.py
 -rw-r--r--	root/root	usr/ROX/Apps/Memo/Window.pyc
 -rw-r--r--	root/root	usr/ROX/Apps/Memo/clock.py
