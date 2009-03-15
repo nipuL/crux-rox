@@ -1,13 +1,13 @@
 # Description:
-# URL:
+# URL: 
 # Maintainer:
 # Packager:
-# Depends on: libwnck
+# Depends on: python libwnck
 
 name=gnome-python-desktop
-version=2.20.0
+version=2.26.0
 release=1
-source=(http://download.gnome.org/desktop/2.20/2.20.0/sources/$name-$version.tar.bz2)
+source=(http://ftp.gnome.org/pub/GNOME/sources/$name/${version::4}/$name-$version.tar.bz2)
 
 build() {
 	cd $name-$version
