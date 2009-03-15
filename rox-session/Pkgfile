@@ -1,7 +1,7 @@
 # Description: Session manager for the ROX Desktop
-# URL: http://rox.sf.net
+# URL: http://roscidus.com/desktop/ROX-Session
 # Maintainer: Lucas Hazel, lucas@die.net.au
-# Depends on: rox-lib, dbus-python
+# Depends on: rox-lib dbus-python
 
 name=rox-session
 version=0.40.0
